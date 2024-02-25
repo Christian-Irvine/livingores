@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "livingores:living_diamond_ore",
+    "livingores:living_gold_ore",
+    "livingores:living_iron_ore",
+    "livingores:living_copper_ore",
+    "livingores:living_lapis_ore",
+    "livingores:living_redstone_ore",
+    "livingores:living_coal_ore",
+    "livingores:living_emerald_ore",
+    "livingores:living_quartz_ore",
+    "livingores:living_spore"
+  ]
+}

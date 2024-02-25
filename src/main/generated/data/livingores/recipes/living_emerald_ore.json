@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "minecraft:moss_block"
+    },
+    "O": {
+      "item": "minecraft:deepslate_emerald_ore"
+    },
+    "S": {
+      "item": "livingores:living_spore"
+    }
+  },
+  "pattern": [
+    "OMO",
+    "MSM",
+    "OMO"
+  ],
+  "result": {
+    "item": "livingores:living_emerald_ore"
+  },
+  "show_notification": true
+}

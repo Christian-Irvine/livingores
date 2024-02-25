@@ -1,0 +1,11 @@
+// 1.20.1	2024-02-25T16:43:30.2581754	Living Ores/Block Loot Tables
+557eb00a8b4356e0e42c207ec66e47f62795d084 data\livingores\loot_tables\blocks\living_lapis_ore.json
+294ab1e8ce92283ace922bf2719db7de3102647d data\livingores\loot_tables\blocks\living_emerald_ore.json
+4820132874d4705446141a50e80b19c12937b40a data\livingores\loot_tables\blocks\living_gold_ore.json
+6e164b1a8ab43aa83ea2ef4983d1168969a39e2c data\livingores\loot_tables\blocks\living_iron_ore.json
+2d512c5d5a5d6bbd93584fb177661aabb9333c2d data\livingores\loot_tables\blocks\living_redstone_ore.json
+f72260c938525e95d75b49acce365802468441b6 data\livingores\loot_tables\blocks\living_coal_ore.json
+1c9f106fd541cbbaee31a411a220e821944a99bf data\livingores\loot_tables\blocks\living_spore.json
+26e61536eabaffa6b63d51b9fc42f7271c1973b0 data\livingores\loot_tables\blocks\living_copper_ore.json
+9d91e8f45eb013b61de70a4ebd347ed70e889986 data\livingores\loot_tables\blocks\living_quartz_ore.json
+37440fe444b372ce9bfb65629d6b35fc292fdca2 data\livingores\loot_tables\blocks\living_diamond_ore.json
