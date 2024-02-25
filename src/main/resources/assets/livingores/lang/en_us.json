@@ -1,0 +1,17 @@
+{
+  "gamerule.exhaustLivingOres":  "Exhausts source living ores",
+
+  "block.livingores.living_diamond_ore": "Living Diamond Ore",
+  "block.livingores.living_gold_ore": "Living Gold Ore",
+  "block.livingores.living_iron_ore": "Living Iron Ore",
+  "block.livingores.living_copper_ore": "Living Copper Ore",
+  "block.livingores.living_lapis_ore": "Living Lapis Ore",
+  "block.livingores.living_redstone_ore": "Living Redstone Ore",
+  "block.livingores.living_coal_ore": "Living Coal Ore",
+  "block.livingores.living_emerald_ore": "Living Emerald Ore",
+  "block.livingores.living_quartz_ore": "Living Quartz Ore",
+
+  "block.livingores.living_spore": "Living Spore",
+
+  "itemGroup.livingores.livingores": "Living Ores"
+}

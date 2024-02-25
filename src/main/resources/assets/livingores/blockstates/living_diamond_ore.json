@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "living_state=0": {
+      "model": "livingores:block/exhausted_living_diamond_ore"
+    },
+    "living_state=1": {
+      "model": "livingores:block/living_diamond_ore"
+    }
+  }
+}
