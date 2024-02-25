@@ -3,13 +3,12 @@
 	"id": "livingores",
 	"version": "${version}",
 	"name": "Living Ores",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Adds Living Ores to minecraft. Spread your living ores to neighboring blocks to farm resources!",
 	"authors": [
-		"Me!"
+		"CraftyMCFish"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://www.youtube.com/craftymcfish"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/livingores/icon.png",
@@ -17,6 +16,9 @@
 	"entrypoints": {
 		"main": [
 			"me.craftymcfish.livingores.LivingOres"
+		],
+		"client": [
+			"me.craftymcfish.livingores.LivingOresClient"
 		],
 		"fabric-datagen": [
 			"me.craftymcfish.livingores.LivingOresDataGenerator"
@@ -30,8 +32,5 @@
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
