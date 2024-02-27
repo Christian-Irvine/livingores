@@ -13,5 +13,14 @@
 
   "block.livingores.living_spore": "Living Spore",
 
-  "itemGroup.livingores.livingores": "Living Ores"
+  "itemGroup.livingores.livingores": "Living Ores",
+
+  "advancements.living_ores.start_living_ores": "Living Ores",
+  "advancements.living_ores.start_living_ores.description": "Its an Ore, It's a Moss. It's Living Ores!",
+
+  "advancements.living_ores.pickup_living_spore": "It Lives!",
+  "advancements.living_ores.pickup_living_spore.description": "Obtain A Living Spore Block",
+
+  "advancements.living_ores.pickup_all_living_ores": "They All Live!",
+  "advancements.living_ores.pickup_all_living_ores.description": "Obtain All Living Ore Blocks"
 }
