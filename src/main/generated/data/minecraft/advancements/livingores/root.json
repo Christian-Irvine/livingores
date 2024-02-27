@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "got_spore_block_icon": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:moss_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": {
+      "translate": "advancements.living_ores.start_living_ores.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "livingores:living_diamond_ore"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.living_ores.start_living_ores"
+    }
+  },
+  "requirements": [
+    [
+      "got_spore_block_icon"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

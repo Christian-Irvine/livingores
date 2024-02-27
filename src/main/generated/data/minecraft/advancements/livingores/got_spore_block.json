@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:livingores/root",
+  "criteria": {
+    "got_spore_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "livingores:living_spore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.living_ores.pickup_living_spore.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "livingores:living_spore"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.living_ores.pickup_living_spore"
+    }
+  },
+  "requirements": [
+    [
+      "got_spore_block"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

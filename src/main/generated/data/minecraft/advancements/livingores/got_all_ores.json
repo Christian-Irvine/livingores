@@ -1,0 +1,158 @@
+{
+  "parent": "minecraft:livingores/got_spore_block",
+  "criteria": {
+    "got_living_coal_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "livingores:living_coal_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_living_copper_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "livingores:living_copper_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_living_diamond_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "livingores:living_diamond_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_living_emerald_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "livingores:living_emerald_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_living_gold_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "livingores:living_gold_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_living_iron_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "livingores:living_iron_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_living_lapis_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "livingores:living_lapis_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_living_quartz_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "livingores:living_quartz_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_living_redstone_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "livingores:living_redstone_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.living_ores.pickup_all_living_ores.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "livingores:living_quartz_ore"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.living_ores.pickup_all_living_ores"
+    }
+  },
+  "requirements": [
+    [
+      "got_living_coal_ore"
+    ],
+    [
+      "got_living_lapis_ore"
+    ],
+    [
+      "got_living_redstone_ore"
+    ],
+    [
+      "got_living_diamond_ore"
+    ],
+    [
+      "got_living_emerald_ore"
+    ],
+    [
+      "got_living_iron_ore"
+    ],
+    [
+      "got_living_copper_ore"
+    ],
+    [
+      "got_living_gold_ore"
+    ],
+    [
+      "got_living_quartz_ore"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
