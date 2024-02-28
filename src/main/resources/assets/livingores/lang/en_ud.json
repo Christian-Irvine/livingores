@@ -1,0 +1,26 @@
+{
+  "gamerule.exhaustLivingOres":  "sǝɹo ƃuᴉʌᴉl ǝɔɹnos sʇsnɐɥxƎ",
+
+  "block.livingores.living_diamond_ore": "ǝɹO puoɯɐᴉᗡ ᵷuᴉʌᴉꞀ",
+  "block.livingores.living_gold_ore": "ǝɹO pꞁo⅁ ᵷuᴉʌᴉꞀ",
+  "block.livingores.living_iron_ore": "ǝɹO uoɹI ᵷuᴉʌᴉꞀ",
+  "block.livingores.living_copper_ore": "ǝɹO ɹǝddoƆ ᵷuᴉʌᴉꞀ",
+  "block.livingores.living_lapis_ore": "ǝɹO sᴉdɐꞀ ᵷuᴉʌᴉꞀ",
+  "block.livingores.living_redstone_ore": "ǝɹO ǝuoʇspǝᴚ ᵷuᴉʌᴉꞀ",
+  "block.livingores.living_coal_ore": "ᵷuᴉʌᴉꞀ ꞁɐoƆ ǝɹO",
+  "block.livingores.living_emerald_ore": "ᵷuᴉʌᴉꞀ pꞁɐɹǝɯƎ ǝɹO",
+  "block.livingores.living_quartz_ore": "ᵷuᴉʌᴉꞀ zʇɹɐnꝹ ǝɹO",
+
+  "block.livingores.living_spore": "ᵷuᴉʌᴉꞀ ǝɹodS",
+
+  "itemGroup.livingores.livingores": "ᵷuᴉʌᴉꞀ sǝɹO",
+
+  "advancements.living_ores.start_living_ores": "ᵷuᴉʌᴉꞀ sǝɹO",
+  "advancements.living_ores.start_living_ores.description": "¡sǝɹO ᵷuᴉʌᴉꞀ s,ʇI ˙ssoW ɐ s,ʇI 'ǝɹO uɐ sʇI",
+
+  "advancements.living_ores.pickup_living_spore": "¡sǝʌᴉꞀ ʇI",
+  "advancements.living_ores.pickup_living_spore.description": "ʞɔoꞁᗺ ǝɹodS ᵷuᴉʌᴉꞀ Ɐ uᴉɐʇqO",
+
+  "advancements.living_ores.pickup_all_living_ores": "¡ǝʌᴉꞀ ꞁꞁⱯ ʎǝɥ⟘",
+  "advancements.living_ores.pickup_all_living_ores.description": "sʞɔoꞁᗺ ǝɹO ᵷuᴉʌᴉꞀ ꞁꞁⱯ uᴉɐʇqO"
+}

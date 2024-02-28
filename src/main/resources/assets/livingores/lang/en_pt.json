@@ -1,0 +1,26 @@
+{
+  "gamerule.exhaustLivingOres":  "Exhausts source living arres",
+
+  "block.livingores.living_diamond_ore": "Living Diamond Arre",
+  "block.livingores.living_gold_ore": "Living Gold Arre",
+  "block.livingores.living_iron_ore": "Living Iron Arre",
+  "block.livingores.living_copper_ore": "Living Copper Arre",
+  "block.livingores.living_lapis_ore": "Living Lapis Arre",
+  "block.livingores.living_redstone_ore": "Living Redstone Arre",
+  "block.livingores.living_coal_ore": "Living Coal Arre",
+  "block.livingores.living_emerald_ore": "Living Emerald Arre",
+  "block.livingores.living_quartz_ore": "Living Quartz Arre",
+
+  "block.livingores.living_spore": "Living Sparre",
+
+  "itemGroup.livingores.livingores": "Living Arres",
+
+  "advancements.living_ores.start_living_ores": "Living Arres",
+  "advancements.living_ores.start_living_ores.description": "Its an Arre, It's a Moss. It's Living Arres!",
+
+  "advancements.living_ores.pickup_living_spore": "It Lives!",
+  "advancements.living_ores.pickup_living_spore.description": "Obtain A Living Sparre Block",
+
+  "advancements.living_ores.pickup_all_living_ores": "They All Live!",
+  "advancements.living_ores.pickup_all_living_ores.description": "Obtain All Living Arre Blocks"
+}
