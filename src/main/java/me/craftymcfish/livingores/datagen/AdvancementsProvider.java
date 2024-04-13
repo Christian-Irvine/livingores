@@ -6,6 +6,7 @@ import me.craftymcfish.livingores.block.ModBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricAdvancementProvider;
 import net.minecraft.advancement.Advancement;
+import net.minecraft.advancement.AdvancementEntry;
 import net.minecraft.advancement.AdvancementFrame;
 import net.minecraft.advancement.AdvancementManager;
 import net.minecraft.advancement.criterion.InventoryChangedCriterion;
@@ -26,8 +27,8 @@ public class AdvancementsProvider extends FabricAdvancementProvider {
     }
 
     @Override
-    public void generateAdvancement(Consumer<Advancement> consumer) {
-        Advancement rootAdvancement = Advancement.Builder.create()
+    public void generateAdvancement(Consumer<AdvancementEntry> consumer) {
+        AdvancementEntry rootAdvancement = Advancement.Builder.create()
                 .display(
                         ModBlocks.LIVING_DIAMOND_ORE,
                         Text.translatable("advancements.living_ores.start_living_ores"),
@@ -41,7 +42,7 @@ public class AdvancementsProvider extends FabricAdvancementProvider {
                 .criterion("got_spore_block_icon", InventoryChangedCriterion.Conditions.items(Blocks.MOSS_BLOCK))
                 .build(consumer, LivingOres.MOD_ID + "/root");
 
-        Advancement livingSporeAdvancement = Advancement.Builder.create().parent(rootAdvancement)
+        AdvancementEntry livingSporeAdvancement = Advancement.Builder.create().parent(rootAdvancement)
                 .display(
                         ModBlocks.LIVING_SPORE,
                         Text.translatable("advancements.living_ores.pickup_living_spore"),
@@ -55,7 +56,7 @@ public class AdvancementsProvider extends FabricAdvancementProvider {
                 .criterion("got_spore_block", InventoryChangedCriterion.Conditions.items(ModBlocks.LIVING_SPORE))
                 .build(consumer, LivingOres.MOD_ID + "/got_spore_block");
 
-        Advancement livingOresAdvancement = Advancement.Builder.create().parent(livingSporeAdvancement)
+        AdvancementEntry livingOresAdvancement = Advancement.Builder.create().parent(livingSporeAdvancement)
                 .display(
                         ModBlocks.LIVING_QUARTZ_ORE,
                         Text.translatable("advancements.living_ores.pickup_all_living_ores"),

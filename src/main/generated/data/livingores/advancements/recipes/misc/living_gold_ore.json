@@ -34,9 +34,9 @@
   },
   "requirements": [
     [
+      "has_the_recipe",
       "has_deepslate_gold_ore",
-      "has_living_spore",
-      "has_the_recipe"
+      "has_living_spore"
     ]
   ],
   "rewards": {

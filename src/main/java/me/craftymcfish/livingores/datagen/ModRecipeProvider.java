@@ -5,6 +5,7 @@ import me.craftymcfish.livingores.block.ModBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.block.Blocks;
+import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.RecipeProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
@@ -21,7 +22,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     }
 
     @Override
-    public void generate(Consumer<RecipeJsonProvider> exporter) {
+    public void generate(RecipeExporter exporter) {
         offerLivingRecipe(exporter, RecipeCategory.MISC, Blocks.DEEPSLATE_COAL_ORE.asItem(), ModBlocks.LIVING_COAL_ORE.asItem(), "coal");
         offerLivingRecipe(exporter, RecipeCategory.MISC, Blocks.DEEPSLATE_COPPER_ORE.asItem(), ModBlocks.LIVING_COPPER_ORE.asItem(), "copper");
         offerLivingRecipe(exporter, RecipeCategory.MISC, Blocks.DEEPSLATE_IRON_ORE.asItem(), ModBlocks.LIVING_IRON_ORE.asItem(), "iron");
@@ -34,7 +35,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     }
 
 
-    public static void offerLivingRecipe(Consumer<RecipeJsonProvider> exporter, RecipeCategory category, Item oreBlock, Item output, String name) {
+    public static void offerLivingRecipe(RecipeExporter exporter, RecipeCategory category, Item oreBlock, Item output, String name) {
         ShapedRecipeJsonBuilder.create(category, output, 1)
                 .pattern("OMO")
                 .pattern("MSM")
